@@ -1,0 +1,12 @@
+# Personal training progress — every clone should start fresh.
+# load_training_state() already handles a missing file gracefully,
+# so simply not tracking it here is enough.
+training_state.json
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Common OS/editor clutter
+.DS_Store
+.vscode/
